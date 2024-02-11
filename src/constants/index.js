@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, cement, chemical, textile, manufacture  } from "../assets";
 
 export const navLinks = [
   {
@@ -23,23 +23,37 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Quality Assurance",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Rigorous quality checks ensure top-notch services",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Customer-Centric Approach",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Tailored solutions that meet and exceed customer expectations.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Expert Team",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Highly skilled professionals with extensive industry experience.",
+  },
+  {
+    id: "feature-4",
+    icon: send,
+    title: "Reliability",
+    content:
+      "Unwavering commitment to ensuring power system reliability.",
+  },
+  {
+    id: "feature-5",
+    icon: send,
+    title: "Innovation",
+    content:
+      "Keeping pace with the latest technological advancements.",
   },
 ];
 
@@ -47,24 +61,24 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
+      "Best class services with impeccable planning.",
+    name: "ABC",
     title: "Founder & Leader",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
+      "Great working standards and timely delivers.",
+    name: "MNP",
     title: "Founder & Leader",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
+      "Quality work and satisfactory project deliverance.",
+    name: "XYZ",
     title: "Founder & Leader",
     img: people03,
   },
@@ -73,18 +87,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Manpower",
+    value: "100+",
   },
   {
     id: "stats-2",
     title: "Trusted by Company",
-    value: "230+",
+    value: "30+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Projects completed",
+    value: "10+",
   },
 ];
 
@@ -180,18 +194,77 @@ export const socialMedia = [
 export const clients = [
   {
     id: "client-1",
-    logo: airbnb,
+    logo: cement,
   },
   {
     id: "client-2",
-    logo: binance,
+    logo: chemical,
   },
   {
     id: "client-3",
-    logo: coinbase,
+    logo: textile,
   },
   {
     id: "client-4",
-    logo: dropbox,
+    logo: manufacture,
   },
 ];
+
+export const services = [
+  {
+    id: "liasoning",
+    content: "Electrical Consultancy & Liaisoning Services"
+  },
+  {
+    id: "electrical-systems",
+    content: "Details Engineering &Scheme Design of Electrical Systems"
+  },
+  {
+    id: "safety",
+    content: "Electrical Safety &Hazards Analysis &Solution"
+  },
+  {
+    id: "analysis",
+    content: "Thermography, Harmonics &Power Factor Analysis &Solution"
+  },
+  {
+    id: "monitoring",
+    content: "Equipment Health Monitoring & Solution"
+  },
+  {
+    id: "solar",
+    content: "Solar panel installation, AC&DC work"
+  },
+
+]
+
+export const kfaEle = [
+      {
+        id: "work-1",
+        desc: "Ensuring power system reliability"
+      },
+      {
+        id: "work-2",
+        desc: "Advanced solutions for energy efficiency"
+      },
+      {
+        id: "work-3",
+        desc: "Grid integration and smart power solutions"
+      }
+
+    ]
+export const kfaIA = [
+      {
+        id: "work-4",
+        desc: "Precision instrumentation for accurate control"
+      },
+      {
+        id: "work-5",
+        desc: "State-of-the-art automation solutions"
+      },
+      {
+        id: "work-6",
+        desc: "Industry 4.0compliant systems"
+      }
+
+    ]

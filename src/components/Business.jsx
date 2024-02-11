@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import Button from './Button';
-import { features } from "../constants";
+import { features, services } from "../constants";
 import styles, { layout } from "../style";
 
 const FeatureCard =({icon, title, content, index})=>(
@@ -28,13 +28,16 @@ const Business = () => {
     <section id="#features" className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
-          You do the business, <br className="sm:block 
-          hidden"/> we'll handle the money.
+          You grow your business, <br className="sm:block 
+          hidden"/> we handle the rest.
         </h2>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-          Sed voluptate quas consequuntur dolor saepe libero, 
-          perferendis animi nulla dolorum eum minima, dolorem optio 
-          quia quos at, dignissimos excepturi similique facilis.</p>
+        {
+          services.map((service)=>(
+            <p className={`${styles.paragraph} max-w-[470px] mt-5`} key={service.id}>{service.content}
+        </p>
+          ))
+        }
+        
 
           <Button styles="mt-10"/>
       </div>
